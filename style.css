@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+}
+/* Nav Section Start  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: rgba(130, 8, 245, 0.924);
+    color:  white;
+}
+.brand_name{
+    font-size: 20px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+span{
+    color: tomato;
+}
+.menu_list{
+    display: flex;
+
+}
+.menu_list li{
+    list-style: none;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.contact{
+    margin-right: 2%;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 30px;
+}
+/* Nav Section End  */
+
+
+section{
+    margin-bottom: 100px;
+}
+
+.flex_container{
+    display: flex;
+}
+.half_width{
+    width: 50%;
+    margin-left: 3%;
+}
+.half_width img{
+    width: 90%;
+    
+}
+.half_width .info{
+    margin-top: 100px;
+}
+.half_width .other_info{
+    margin-top: 30px;
+}
+.half_width .button{
+    margin-top: 60px;
+}
+
+.half_width h1{
+    font-size: 45px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+.half_width p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    padding:20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#about_us{
+    background-image: url(./img/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about_us .other_info{
+    margin-right: 20%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+#Recipes h1{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.recipe_info{
+   width: 50%;
+   margin: 0 auto;
+   font-size: 20px;
+}
+
+.recipes_item{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.recipes_item .item{
+    width: 33%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 8px 9px 9px 10px rgb(231, 230, 230);
+
+}
+.recipes_item img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.social_activity{
+    box-shadow: 10px 10px 10px 10px gainsboro;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.social_followers{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+#subscription{
+    background-image: url(./img/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe{
+    padding: 15px;
+    margin-top: 20px;
+}
+.subscribe_btn{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    color: gray;
+    text-align: center;  
+    padding: 40px;
+}
+footer p{
+    color: white;
+    background-color: 2px solid red;
+}
+
